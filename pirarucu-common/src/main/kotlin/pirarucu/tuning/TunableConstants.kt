@@ -197,8 +197,8 @@ object TunableConstants {
     val THREATEN_BY_BISHOP_EG = intArrayOf(0, 30, 25, 0, 9, 114, 0)
     val THREATEN_BY_BISHOP = IntArray(Piece.SIZE)
 
-    val THREATEN_BY_ROOK_MG = intArrayOf(0, -4, 34, 35, 0, 85, 0)
-    val THREATEN_BY_ROOK_EG = intArrayOf(0, 29, 31, 12, 0, 16, 0)
+    val THREATEN_BY_ROOK_MG = intArrayOf(0, 3, 37, 42, 0, 58, 0)
+    val THREATEN_BY_ROOK_EG = intArrayOf(0, 46, 68, 60, 38, 41, 0)
     val THREATEN_BY_ROOK = IntArray(Piece.SIZE)
 
     init {
